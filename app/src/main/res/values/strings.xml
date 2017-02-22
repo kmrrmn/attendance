@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Attendance Manager</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_add">Add</string>
+
+
+    <string name="title_activity_splash"> Attendance manager</string>
+    <string name="title_activity_all__sub">All_Sub</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_on_edit_clicked">OnEditClicked</string>
+
+    <string name="openDrawer">OpenDrawer</string>
+    <string name="closeDrawer">CloseDrawer</string>
+
+
+    <string-array name="days">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string-array name="apm">
+        <item>PM</item>
+        <item>AM</item>
+    </string-array>
+</resources>

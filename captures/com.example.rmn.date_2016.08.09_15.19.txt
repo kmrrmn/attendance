@@ -1,0 +1,42 @@
+Applications Memory Usage (kB):
+Uptime: 114648666 Realtime: 334283371
+
+** MEMINFO in pid 30186 [com.example.rmn.date] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native       16       16       16     3860     3802       57
+       Dalvik     4858     9296     4580     8200     8037      163
+       Cursor        8        0        8                           
+       Ashmem        0        0        0                           
+    Other dev        4       44        0                           
+     .so mmap     1266     2560      988                           
+    .jar mmap        0        0        0                           
+    .apk mmap      311        0        0                           
+    .ttf mmap        4        0        0                           
+    .dex mmap     1968        0       28                           
+   Other mmap      411      320       92                           
+      Unknown     2029      356     2024                           
+        TOTAL    10875    12592     7736    12060    11839      220
+ 
+ Objects
+               Views:       47         ViewRootImpl:        3
+         AppContexts:        3           Activities:        1
+              Assets:        6        AssetManagers:        6
+       Local Binders:       10        Proxy Binders:       16
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:      212
+  PAGECACHE_OVERFLOW:       57          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       32             26         1/16/2  /data/data/com.example.rmn.date/databases/attendanceManager
+         4       32             30         1/32/4  /data/data/com.example.rmn.date/databases/attendanceManager
+ 
+ Asset Allocations
+    zip:/data/app/com.example.rmn.date-1.apk:/assets/OpenSans-Regular.ttf: 212K
+    zip:/data/app/com.example.rmn.date-1.apk:/assets/OpenSans-Light.ttf: 217K
+    zip:/data/app/com.example.rmn.date-1.apk:/assets/OpenSans-Light.ttf: 217K

@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEBE7"
+    android:orientation="vertical"
+    tools:context="com.example.rmn.date.Monday"
+   >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyler_view_mon"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyler_view_extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/day"
+        android:textColor="#5d8a79"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+         android:text="NO  SUBJECT ADDED"
+        android:layout_gravity="center_vertical"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</FrameLayout>

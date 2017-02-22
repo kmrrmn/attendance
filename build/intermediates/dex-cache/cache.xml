@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_3a53715d7ebcf97b229cc46a99697766548740da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_e8d0e0d51e98d89874b30692864351a63e31cdb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\libs\mpandroidchartlibrary-2-2-4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5455fb794bfcbeb75da252dffd907794614f7fd">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\2\mpandroidchartlibrary-2-2-4_3ced6aea89d3b1e5fd424f19cc9349813d199ef9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_36927e569c27d30684a925d7fe4ad8616a7553dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_d8e18bef179b2bd0df7a805e8c6b7d71d2f0241d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_48174776c694e85924f3a02aa0ba8a65eb94616d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_1504d5c04d6aa9c7e87980f68a80dc1b75e6356e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_eb455b4caa740596e80c491d53afa852b97a9b79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="951293815bd8da8ba3f3291b4f448d0eab6f7fdb">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8fda40d29eced463b1d9c9273bbc7b5a571659c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="897a3f3173c4ea6370c3a5519532961de330a47c">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8c22acd5a41db2aeda179c2dd33da129e14f4aff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_803135bb99c8c665ff81fde1259a8db8fa8eeb59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_603c568ef15b1b97b0244e6809e3dfe810456d1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\rmn\AndroidStudioProjects\New folder (3)\attedancemanager\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_e154f6bc379fa4b6b117470e7e03470f64b4d55b\classes.dex" />
+    </item>
+
+</items>

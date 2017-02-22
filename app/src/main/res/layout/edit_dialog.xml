@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.v7.widget.CardView
+
+     android:id="@+id/card"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                 <RelativeLayout
+                     android:orientation="vertical"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginStart="15dp"
+                            android:textColor="#62929E"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/sub"
+                            android:textSize="25dp"
+                            android:text="Subject"
+                            android:layout_alignParentTop="true"
+                            />
+                     <TextView
+                         android:textColor="#62929E"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/date"
+                         android:textSize="15dp"
+                         android:text="00/00/00"
+                         android:layout_below="@+id/sub"
+                         android:layout_alignLeft="@+id/sub"
+                         android:layout_alignStart="@+id/sub" />
+
+                 </RelativeLayout>
+            </android.support.v7.widget.Toolbar>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:textSize="20sp"
+                android:layout_marginTop="18dp"
+                android:textColor="#62929E"
+                android:id="@+id/msg"
+                android:text="you have been attend this class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <Button
+             android:id="@+id/bunk"
+             android:text="Bunk"
+             android:layout_margin="15dp"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+
+
+
+         <Button
+             android:id="@+id/free"
+             android:layout_margin="15dp"
+             android:layout_gravity="end|center_vertical"
+             android:text="Free"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+
+
+         <Button
+             android:id="@+id/attend"
+             android:layout_margin="15dp"
+             android:layout_gravity="end|center_vertical"
+             android:text="Attend"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+ </LinearLayout>
+ </android.support.v7.widget.CardView>
+
+</LinearLayout>

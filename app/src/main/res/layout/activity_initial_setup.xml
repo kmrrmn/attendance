@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    tools:context="com.example.rmn.date.InitialSetupActivity">
+
+<android.support.design.widget.TextInputLayout
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/view">
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:textColor="#000"
+        android:text="Your school/College  time"
+        android:id="@+id/time"   />
+
+</android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_centerInParent="true"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view3">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:textColor="#000"
+            android:text="Class time interval"
+            android:id="@+id/time_interval"   />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:onClick="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/submit"
+        android:layout_below="@+id/view3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="20dp"/>
+
+
+</RelativeLayout>

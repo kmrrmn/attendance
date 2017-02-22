@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rmn.date.CalenderDialog">
+
+    <DatePicker
+        android:datePickerMode="calendar"
+        android:headerBackground="@color/cardview_shadow_start_color"
+        android:background="#7CA982"
+        android:calendarViewShown="true"
+        android:spinnersShown="false"
+        android:id="@+id/datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</FrameLayout>

@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFCFF"
+    android:layout_marginTop="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.rmn.date.LastUpdate">
+
+
+    <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="100%"
+        android:textColor="#CBD4C2"
+        android:textSize="70sp"
+        android:id="@+id/percent"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/percent"
+        app:cardBackgroundColor="#abe"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/view2">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                app:cardBackgroundColor="#456a"
+                 android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:elevation="6dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                     android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                  android:textSize="30sp"
+                         android:id="@+id/no_day"
+                        android:text="0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        />
+                    <TextView
+                        android:textSize="20sp"
+                        android:layout_gravity="center_horizontal"
+                          android:id="@+id/desc"
+                        android:text=" classes are required to attend for"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textSize="40sp"
+                        android:layout_gravity="center_horizontal"
+                      android:id="@+id/criteria"
+                    android:text="100%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <GridLayout
+                android:layout_below="@id/card2"
+                android:id="@id/grid"
+                android:rowCount="2"
+                android:columnCount="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:textSize="30sp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:text="Attend :"/>
+
+                <TextView
+                     android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:textSize="30sp"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:text="Total    :"/>
+
+                <TextView
+                    android:id="@id/attend"
+                    android:layout_margin="20dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginRight="80dp"
+                    android:textSize="30sp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:text="00"
+                    android:layout_gravity="end"/>
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginRight="80dp"
+                    android:textSize="30sp"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:text="00"/>
+            </GridLayout>
+        </RelativeLayout>
+
+
+     </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/drwr_row"
+    app:cardBackgroundColor="#fff">
+
+             <TextView
+                 android:layout_marginTop="10dp"
+                 android:layout_marginBottom="10dp"
+                   android:id="@+id/row_item"
+                 android:textSize="20sp"
+                 android:layout_marginStart="20dp"
+                 android:layout_marginLeft="20dp"
+                 android:textColor="#3B1F2B"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Home"/>
+
+</android.support.v7.widget.CardView>
